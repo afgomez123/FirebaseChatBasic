@@ -7,7 +7,8 @@ class Chat{
 		this.buildChat(containerID);
 		this.setEvents();
 	}
-
+	sdbansd
+nhwefjwhef
 	buildChat(containerID){
 		$.tmpl($("#hidden-template"),{id: this.id})
 				.appendTo("#"+containerID);
@@ -23,6 +24,7 @@ class Chat{
 
 			return false;
 		});
+		SJDSJDH
 
 		this.ref.on("child_added", (data)=>{
 			this.add(data);
